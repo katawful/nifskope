@@ -2,7 +2,7 @@
 #define LIGHTINGWIDGET_H
 
 #include <QWidget>
-#include <QWidget>
+#include <QAction>
 
 #include <memory>
 
