@@ -69,5 +69,5 @@ void LightingWidget::setActions( QVector<QAction *> atns )
 	ui->btnLightingOnly->setDefaultAction( atns.value(6) );
 	ui->btnSilhouette->setDefaultAction( atns.value(7) );
 
-	connect( ui->btnLighting, &QToolButton::toggled, atns.value(3), &QAction::setEnabled );
+ connect( ui->btnLighting, &QToolButton::toggled, atns.value(3), &QAction::setEnabled ); 
 }
